@@ -22,17 +22,18 @@ while control:
         print(num)
         print(stri)
         print(boolean)
-    elif user_input.isdigit():
-        num.append(int(user_input))
+    elif user_input.isdigit(): # Controlla se è un intero e lo aggiunge alla lista numeri
+        num.append(int(user_input)) # Converte il tipo
         print(f'{user_input} aggiunto alla lista')
         continue
-    elif user_input == 'True' or user_input == 'False':
-        boolean.append(bool(user_input))
+    elif user_input == 'True' or user_input == 'False': # Se input True o False
+        boolean.append(user_input == 'True') # Aggiunge booleano, nelle parentesi condizione per aggiungere False, o restituisce sempre True)
         print(f'{user_input} aggiunto alla lista')
         continue
     else:
         stri.append(user_input)
         print(f'{user_input} aggiunto alla lista')
+        continue
 
         
     
