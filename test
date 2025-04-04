@@ -1,0 +1,39 @@
+Risposta 4: Una classe è un elemento fondamentale della OOP, e si può definire come uno stampo, 
+            un modello con delle proprietà (attributi e metodi). 
+            Il prodotto di una classe, le istanze, sono gli oggetti. 
+            Gli oggetti mantengono gli attributi e i metodi della classe di cui sono prodotto.
+
+Risposta 6: Un'aggregazione è un contenitore di elementi che possono essere di diverso tipo. 
+            Fino ad ora abbiamo studiato le seguenti aggregazioni: 
+
+            - Lista: è una collezione di dati, anche eterogenei, che ha la caratteristica di essere ordinata e modificabile, può contenere duplicati. 
+
+            - Tupla: come la lista è ordinata ma non è modificabile. 
+
+            - Set (Insiemi): è una collezione di dati NON DUPLICATI che non è ordinata ma è modificabile. Agli insiemi possiamo eseguire operazioni come unione, intersezione, differenza e differenza simmetrica
+
+Risposta 12: Le regole fondamentali della OOP sono : Astrazione (descritta nella domanda 14),
+             incapsulamento, ereditarietà e polimorfirsmo. 
+             
+             - Incapsulamento: è quella proprietà di nascondere parti di codice al codice stesso, attraverso parentesi. Crea uno spazio isolato dove possiamo avere regole diverse. 
+             
+             - Ereditarietà: è quel legame gerarchico che abbiamo fra elementi. Ad esempio gli oggetti ereditano proprietà dalle classi. 
+             
+             - Polimorfismo: la capacità di cambiare a seconda del contesto. Un esempio pratico è nel print(5+6) dove il + cambia forma a seconda dei dati (nel caso in cui fossero state due stringhe le concatenava, nell'esempio di prima sommava i due valori numerici)
+
+Risposta 14: L'astrazione è quella proprietà della OOP di dividere corpo ed azione. 
+
+            Le funzioni sono blocchi di codice che possono eseguire operazioni e hanno la caratteristica, una volta definite, di essere richiamate in diverse parti del codice, permettendo modularità, flessibilità e manutenibilità del codice. 
+            
+            Incarnano perfettamente il concetto di astrazione poichè è diviso il cosa fa una funzione dal come lo fa
+
+Risposta 16: Il controllo del flusso è quella capacità di eseguire un blocco di codice o un altro
+             attraverso istruzioni definite. I controllori del flusso sono le condizioni if, elif, else e i loop for e while. 
+             
+             - If, elif, else: sono istruzioni che permettono l'esecuzione di un codice solo se una determinata condizione è verificata. Si parte con la prima istruzione if, si inseriscono quanti elif necessari (else if) e si conclude con l'else (tutti gli altri casi). Di if ed else possiamo inserirne solo uno, rispettivamente all'inizio e alla fine del blocco. 
+             
+             - For : è un'istruzione che permette un'iterazione in un contenitore di elementi minori (una visita in un iterabile). Può essere accompagnata dal metodo incorporato a python range() che di base restituisce una serie di numeri interi e ha tre parametri (start, stop e step, solo lo stop è obbligatorio). 
+             
+             - While: è un'istruzione che esegue un codice finchè una condizione (un booleano o una verifica da operazione matematica basta che restituisca un bool) è vera. 
+             
+             Il for e il while possono avere degli ulteriori controlli come il break che interrompe il ciclo con determinate condizioni, il continue che salta un'iterazione e il pass, comunemente usato come segnaposto, non apporta modifiche al ciclo..
